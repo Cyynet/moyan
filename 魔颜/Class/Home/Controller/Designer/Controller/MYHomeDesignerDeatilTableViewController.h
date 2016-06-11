@@ -1,0 +1,21 @@
+//
+//  MYHomeDesignerDeatilTableViewController.h
+//  魔颜
+//
+//  Created by abc on 15/9/29.
+//  Copyright (c) 2015年 abc. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface MYHomeDesignerDeatilTableViewController : UIViewController
+
+
+@property(strong,nonatomic) NSString * id;
+
+@property (strong, nonatomic) NSString *name;
+
+
+@property(strong,nonatomic) NSString * price;
+
+@end

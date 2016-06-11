@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5361D044-8706-44BD-9F0E-C4CD45ECF8BF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>魔颜</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>cc8b6028-7bee-c848-9b29-21544b7c60c2++8705</key>
+		<string>http://192.168.1.123:8080/svn/moyanios/%25E9%25AD%2594%25E9%25A2%259C%2520%2520</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>魔颜.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>cc8b6028-7bee-c848-9b29-21544b7c60c2++8705</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>cc8b6028-7bee-c848-9b29-21544b7c60c2++8705</key>
+		<string>http://192.168.1.123:8080/svn/moyanios</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://192.168.1.123:8080/svn/moyanios/%25E9%25AD%2594%25E9%25A2%259C%2520%2520/%E9%AD%94%E9%A2%9C.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>cc8b6028-7bee-c848-9b29-21544b7c60c2++8705</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>cc8b6028-7bee-c848-9b29-21544b7c60c2++8705</string>
+			<key>IDESourceControlWCCName</key>
+			<string>%E9%AD%94%E9%A2%9C11.01</string>
+		</dict>
+	</array>
+</dict>
+</plist>

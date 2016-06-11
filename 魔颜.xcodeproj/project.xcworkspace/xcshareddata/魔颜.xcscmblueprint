@@ -1,0 +1,33 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "cc8b6028-7bee-c848-9b29-21544b7c60c2++1046",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "cc8b6028-7bee-c848-9b29-21544b7c60c2++1046" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "cc8b6028-7bee-c848-9b29-21544b7c60c2++1046" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5361D044-8706-44BD-9F0E-C4CD45ECF8BF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+<<<<<<< .mine
+    "cc8b6028-7bee-c848-9b29-21544b7c60c2++1046" : "%E9%AD%94%E9%A2%9C1.0.8\/"
+=======
+    "cc8b6028-7bee-c848-9b29-21544b7c60c2" : "2.0.7\/"
+>>>>>>> .r246
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "魔颜",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+<<<<<<< .mine
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "魔颜.xcodeproj",
+=======
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "魔颜1.0.7\/魔颜.xcodeproj",
+>>>>>>> .r246
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.1.168:8080\/svn\/moyanios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "cc8b6028-7bee-c848-9b29-21544b7c60c2++1046"
+    }
+  ]
+}

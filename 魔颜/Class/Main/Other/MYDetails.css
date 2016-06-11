@@ -1,0 +1,178 @@
+
+.title {
+    text-align:center;
+    font-size:16px;
+    font-family:SYFZLTKHJW--GB1-0;
+}
+
+.time {
+    text-align:left;
+    font-size:15px;
+    color:black;
+    margin-top:7px;
+    margin-bottom:7px;
+    margin-left:10px;
+}
+
+.img-parent {
+    
+    text-align:center;
+    margin-bottom:10px;
+    max-width:100%;
+}
+
+
+.content {
+    text-align:left;
+    line-height:24px;
+    font-size:14px;
+    font-family:SYFZLTKHJW--GB1-0;
+    margin-top:10px;
+    
+}
+
+img{
+    width: 100%;
+    margin: 10px 0;
+}
+
+body {
+    font-family: SYFZLTKHJW--GB1-0;
+    text-align:left;
+    font-size: 10pt;
+}
+
+/*用户头部样式*/
+.user{
+    font-size:8pt;
+    width:100%;
+    overflow: hidden;
+    padding:0 2% 2% 3%;
+}
+.user_left{
+    width: 40%;
+    float: left;
+    overflow: hidden;
+}
+.user_right{
+    width: 56%;
+    overflow: hidden;
+    float: left;
+}
+/*左边的头像*/
+.user_left img{
+    width: 34px;
+    height:34px;
+    display:block;
+    margin:5;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    float: left;
+}
+.user_left p{
+    float: left;
+    margin-top: 10%;
+    color: black;
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+/*右边的注册日期*/
+.user_right p{
+    float: right;
+    color: black;
+    margin-top: 8%;
+    font-size: 1em;
+    
+}
+.user_right span{
+    float: right;
+    margin-top: 7%;
+    border: 0.5px solid #808080;
+    color: black;
+    font-size: 1.1em;
+    width: 25%;
+    text-align: center;
+    -webkit-border-radius: 2px;
+    margin-left: 15px;
+}
+/*相关医院*/
+.hospital{
+    padding: 2%;
+    width: 100%;
+}
+/*标题*/
+.hospital>p{
+    font-size: 1.3em;
+    line-height: 0.8em;
+    width: 100%;
+    text-align: center;
+    color: #5c5c5c;
+    
+}
+/*医院介绍*/
+.hospital_induct{
+    width: 100%;
+    overflow:hidden;
+   
+}
+.hospital_left{
+    width: 30%;
+    float:left;
+    
+   
+}
+.hospital_right{
+    width: 70%;
+    float:left;
+    padding-top:6%;
+    
+}
+.hospital_left img{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 100%;
+}
+.hospital_right p{
+    width: 100%;
+    margin:0 0 0 3%;
+    font-size: 0.8em;
+    line-height: 1.8em;
+   
+}
+/*评价指数*/
+.hospital_index{
+    width: 100%;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.hospital_index p{
+    font-size: 1.1em;
+    width:20%;
+    float: left;
+}
+.hospital_index div{
+    width: 30%;
+    float: left;
+}
+.hospital_index img{
+    width: 100%;
+}
+
+/**
+ *  <#Description#>
+ */
+.images{
+    width: 100%;
+    height: 40px;/*//控制头像的大小*/
+    overflow: hidden;
+    }
+.images img{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    display: block;
+    float: right;
+    margin-top:0;
+    margin-right: 10px;
+}

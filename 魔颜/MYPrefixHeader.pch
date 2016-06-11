@@ -1,0 +1,148 @@
+//
+//  MYPrefixHeader.pch
+//  魔颜
+//
+//  Created by abc on 15/9/28.
+//  Copyright (c) 2015年 abc. All rights reserved.
+//
+
+//#ifndef ___MYPrefixHeader_pch
+#define ___MYPrefixHeader_pch
+
+#import "AppDelegate.h"
+#import "UIView+Extension.h"
+
+#import "MYHttpTool.h"
+#import "MJRefresh.h"
+#import "MJExtension.h"
+#import "FmdbTool.h"
+
+#define kOuternet1  @"http://121.43.229.113:8081/shaping/"
+//#define kOuternet   @"http://192.168.1.154:8080/shaping/"
+//#define kOuternet2  @"http://192.168.1.157:8080/shaping/"
+
+#ifdef DEBUG  //调试
+
+#define MYLog(...) NSLog(__VA_ARGS__)
+
+#else   //release 发布
+
+#define MYLog(...)
+
+#endif
+
+#define MYVersion @"1.0.1"
+
+/** 多线程GCD*/
+#define MYGlobalGCD(block) dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), block)
+#define MYMainGCD(block) dispatch_async(dispatch_get_main_queue(),block)
+
+
+//项目里面访问AppDelegate做全局变量
+#define MYAppDelegate ((AppDelegate *)[UIApplication sharedApplication].delegate)
+
+// 颜色
+#define MYColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+////颜色和透明度设置
+#define RGBA(r,g,b,a)  [UIColor colorWithRed:(float)r/255.0f green:(float)g/255.0f blue:(float)b/255.0f alpha:a]
+
+/**字体*/
+#define MYSFont(x) [UIFont systemFontOfSize:x]
+#define MYFont(x) [UIFont fontWithName:@"SYFZLTKHJW--GB1-0" size:x]
+
+/**通用颜色*/
+#define MYBgColor UIColorFromRGB(0xfafafa) //背景色
+#define MYRedColor UIColorFromRGB(0xcd0381)    //主题红色
+#define MYYellowColor UIColorFromRGB(0xFFCD34) //主题黄色
+#define MYGreenColor  UIColorFromRGB(0x21D8D6) //主题绿色
+
+// 随机色
+#define MYRandomColor MYColor((arc4random_uniform(256)),(arc4random_uniform(256)),(arc4random_uniform(256)))
+
+#define MYScreenW [UIScreen mainScreen].bounds.size.width
+#define MYScreenH [UIScreen mainScreen].bounds.size.height
+
+#define MYValue(value) ((value) / 375.0f * MYScreenW)
+
+#define kMargin 10
+#define MYMargin     MYScreenW * 0.053 //20
+#define MYRowHeight  MYScreenH * 0.07 //46.69
+
+#define MYNotificationCenter [NSNotificationCenter defaultCenter]
+#define MYUserDefaults [NSUserDefaults standardUserDefaults]
+
+//详情页面的字体大小 颜色（医生 设计师 特惠 ）
+#define leftFont  [UIFont fontWithName:@"SYFZLTKHJW--GB1-0" size:12.0]
+#define MianFont  [UIFont fontWithName:@"SYFZLTKHJW--GB1-0" size:13.0]
+#define ThemeFont [UIFont fontWithName:@"SYFZLTKHJW--GB1-0" size:15.0]
+
+#define titlecolor  UIColorFromRGB(0x4c4c4c)
+#define subTitleColor  UIColorFromRGB(0x808080)
+
+//分割线颜色
+#define lineViewBackgroundColor  UIColorFromRGB(0xdfdfdf)
+#define  MYcolor  MYColor(193, 177, 122)
+
+//快捷方法调用
+#define NSLogFunc MYLog(@"%s", __func__)
+
+//判断字符串是否为空
+#define NULLString(string) ([string isEqualToString:@""] || (string == nil) || ([string length] == 0)  || [string isKindOfClass:[NSNull class]] || [[string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] length] == 0)
+
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+//微信支付
+#define SP_URL      @"http://wxpay.weixin.qq.com/pub_v2/app/app_pay.php"
+//
+// Prefix header for all source files of the 'SDKSample' target in the 'SDKSample' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+
+// 账号帐户资料
+//更改商户把相关参数后可测试
+
+#define APP_ID          @"wxee3be451dbc68260"               //APPID
+#define APP_SECRET      @"8a40ec694c49b9c0e9b6ee282cc97880" //appsecret
+//商户号，填写商户对应参数
+#define MCH_ID          @"1283314201"
+//商户API密钥，填写相应参数
+#define PARTNER_ID      @"20moyanwang1511moyanwang01myw115"
+//支付结果回调页面
+#define NOTIFY_URL      @"http://121.43.229.113:8081/shaping/payBack/wx_pay_callback"
+//获取服务器端支付数据地址（商户自定义）
+#define SP_URL          @"https://api.mch.weixin.qq.com/pay/unifiedorder.php"
+
+
+
+//登录用户的通讯信息 容云使用
+
+
+#endif
